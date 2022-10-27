@@ -20,10 +20,10 @@
   margin: 0;
   padding: 0;
   color: var(--color1);
-  font-family: "Kanit", sans-serif;
-  font-size: 20px;
   text-decoration: none;
   list-style: none;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
 }
 
 body {
@@ -67,13 +67,57 @@ main
 main {
   justify-self: center;
   background-color: var(--color7);
-  padding-top: 40px;
   width: 100%;
   max-width: 1024px;
+  scroll-snap-type: y mandatory;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.content_box {
+  scroll-snap-align: start;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content_box p {
+  padding: 0.5rem 0;
+}
+
+/* === start === */
+.start p {
+  padding: 0;
+}
+
+/* === about === */
+.about_list {
+  padding-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.about_list li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f121";
+  display: inline-block;
+  padding-right: 0.6rem;
+  vertical-align: middle;
+  font-weight: 900;
 }
 
 /* ============================
@@ -82,50 +126,38 @@ footer
 footer {
   position: fixed;
   bottom: 0;
-  border-top: 0.2rem solid var(--color1);
-  background-color: var(--color8);
-  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+footer ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem;
 }
 
-.footer_links li a i {
-  font-size: 1.5rem;
-  width: 4rem;
-  padding-top: 0.5rem;
-  transition: all 0.3s ease 0s;
+.footer_links_end {
+  width: 0.2rem;
+  height: 15vh;
+  background-color: var(--color1);
 }
 
-.footer_links li a i:hover {
-  color: var(--color2);
-  font-size: 1.4rem;
-}
-
-/* ============================
-.footer_links {
+.footer_links a {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
 }
 
-.footer_links li {
-  display: inline-block;
-  width: 10rem;
+.footer_links i {
+  transition: all 0.3s ease 0s;
+  font-size: 1.6rem;
 }
 
-.footer_links li a {
-  margin: 1rem 2rem;
-}
-
-.footer_links li a i {
-  font-size: 1.5rem;
-}
-
-.footer_links li a i:hover {
+.footer_links i:hover {
   color: var(--color2);
-  font-size: 1.45rem;
 }
-============================ */

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
+
+:root {
+  /*
+  RUST GOLD 8 PALETTE by Trigo Mathmancer
+  https://lospec.com/palette-list/rust-gold-8
+  */
+  --color1: #f6cd26;
+  --color2: #ac6b26;
+  --color3: #563226;
+  --color4: #331c17;
+  --color5: #bb7f57;
+  --color6: #725956;
+  --color7: #393939;
+  --color8: #202020;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--color1);
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: var(--color7);
+  display: grid;
+}
+
+/* ============================
+nav
+============================ */
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color8);
+  border-bottom: 0.2rem solid var(--color1);
+  height: fit-content;
+}
+
+.nav_links li {
+  display: inline-block;
+  width: 10rem;
+}
+
+.nav_links a {
+  display: block;
+  padding: 1rem 1.2rem;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+}
+
+.nav_links li a:hover {
+  color: var(--color2);
+  font-size: 0.95rem;
+}
+
+/* ============================
+main
+============================ */
+main {
+  justify-self: center;
+  background-color: var(--color7);
+  padding-top: 40px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* ============================
+footer
+============================ */
+footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 0.2rem solid var(--color1);
+  background-color: var(--color8);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.footer_links li a i {
+  font-size: 1.5rem;
+  width: 4rem;
+  padding-top: 0.5rem;
+  transition: all 0.3s ease 0s;
+}
+
+.footer_links li a i:hover {
+  color: var(--color2);
+  font-size: 1.4rem;
+}
+
+/* ============================
+.footer_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_links li {
+  display: inline-block;
+  width: 10rem;
+}
+
+.footer_links li a {
+  margin: 1rem 2rem;
+}
+
+.footer_links li a i {
+  font-size: 1.5rem;
+}
+
+.footer_links li a i:hover {
+  color: var(--color2);
+  font-size: 1.45rem;
+}
+============================ */

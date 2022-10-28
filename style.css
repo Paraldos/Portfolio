@@ -102,6 +102,14 @@ h3 {
   padding: 0;
 }
 
+.start h1 {
+  text-align: center;
+}
+
+.start h3 {
+  text-align: end;
+}
+
 /* === about === */
 .about_list {
   padding-top: 0.5rem;
@@ -151,13 +159,15 @@ footer ul {
   align-items: center;
   width: 4rem;
   height: 4rem;
+  transition: all 0.3s ease 0s;
 }
 
 .footer_links i {
-  transition: all 0.3s ease 0s;
+  color: inherit;
   font-size: 1.6rem;
 }
 
-.footer_links i:hover {
+.footer_links a:hover {
   color: var(--color2);
+  transform: translate(5px, 0) rotate(5deg);
 }

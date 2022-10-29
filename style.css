@@ -10,8 +10,9 @@
   --color_bacbkground_light: #393939;
   --color_bacbkground_dark: #202020;
   --scroll_width: 20px;
-  --nav_height: 80px;
-  --nav_border: 5px;
+  --nav_height_big: 4rem;
+  --nav_height_small: 3rem;
+  --nav_border: 0.2rem;
   --nav_li: 180px;
 }
 
@@ -75,7 +76,7 @@ h3 {
 /* ============================ main ============================ */
 main {
   margin: 0px auto;
-  height: calc(100vh - var(--nav_height));
+  height: calc(100vh - var(--nav_height_big));
   width: 100%;
   max-width: 1024px;
 }
@@ -96,7 +97,7 @@ main {
 
 /* === start === */
 #start_section p {
-  padding-top: var(--nav_height);
+  padding-top: var(--nav_height_big);
 }
 
 #start_section h1 {

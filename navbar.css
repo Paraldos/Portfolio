@@ -3,7 +3,7 @@ nav {
   top: 0;
   left: 0;
   width: 100vw;
-  height: var(--nav_height);
+  height: var(--nav_height_big);
   background-color: var(--color_bacbkground_dark);
   display: flex;
   justify-content: space-between;
@@ -60,9 +60,8 @@ nav ul a:hover {
 /* burger */
 .menu_btn {
   position: relative;
-  width: var(--nav_height);
-  height: var(--nav_height);
-
+  width: var(--nav_height_small);
+  height: var(--nav_height_small);
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -73,7 +72,7 @@ nav ul a:hover {
 
 .burger_bar {
   position: absolute;
-  width: 60%;
+  width: 70%;
   height: var(--nav_border);
   background-color: var(--color_text);
   transition: all 0.5s ease-in-out;
@@ -81,11 +80,11 @@ nav ul a:hover {
 }
 
 .b1 {
-  transform: translateY(-0.8rem);
+  transform: translateY(-0.6rem);
 }
 
 .b3 {
-  transform: translateY(0.8rem);
+  transform: translateY(0.6rem);
 }
 
 /* burger animation */
@@ -102,6 +101,18 @@ nav.open .b3 {
 
 /* media query */
 @media (max-width: 850px) {
+  nav {
+    height: var(--nav_height_small)
+  }
+
+  nav .logo {
+    font-size: 1.2rem;
+  }
+
+  nav .logo i {
+    font-size: 1.2rem;
+  }
+
   .menu_btn {
     display: flex;
   }

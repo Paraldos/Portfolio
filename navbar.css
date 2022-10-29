@@ -1,0 +1,136 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: var(--nav_height);
+  background-color: var(--color_bacbkground_dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--nav_border) solid var(--color_text);
+  transform-style: preserve-3d;
+  padding-left: var(--scroll_width);
+}
+
+nav input {
+  display: none;
+}
+
+nav .logo {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+nav .logo i {
+  padding-right: 10px;
+  font-size: 35px;
+}
+
+nav ul {
+  padding-right: var(--scroll_width);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  height: 100%;
+  width: var(--nav_li);
+  text-align: center;
+}
+
+nav ul a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul a:hover {
+  color: var(--color_accent);
+  transform: scaleX(0.95);
+}
+
+/* burger */
+.menu_btn {
+  position: relative;
+  right: var(--scroll_width);
+  width: var(--nav_height);
+  height: var(--nav_height);
+
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.burger_bar {
+  position: absolute;
+  width: 60%;
+  height: var(--nav_border);
+  background-color: var(--color_text);
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+.b1 {
+  transform: translateY(-16px);
+}
+
+.b3 {
+  transform: translateY(16px);
+}
+
+/* burger animation */
+nav.open .b2 {
+  transform: scaleX(0);
+  background: transparent;
+}
+nav.open .b1 {
+  transform: rotate(-45deg);
+}
+nav.open .b3 {
+  transform: rotate(45deg);
+}
+
+/* media query */
+@media (max-width: 850px) {
+  .menu_btn {
+    display: flex;
+  }
+
+  nav ul {
+    background-color: var(--color_bacbkground_dark);
+    height: min-content;
+    width: 100%;
+    position: absolute;
+    top: -100vh;
+    display: block;
+    transition: top 0.5s ease-in-out;
+    transform: translateZ(-10px);
+  }
+
+  nav li {
+    height: min-content;
+    width: 100%;
+  }
+
+  nav ul a {
+    padding: 30px 0;
+  }
+  nav.open ul {
+    top: var(--nav_height);
+  }
+}

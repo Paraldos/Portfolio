@@ -6,28 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/12bc7dd6b9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="navbar.css" />
   </head>
   <body>
-    <nav>
-      <img class="logo" src="" alt="" />
+    <!-- ================== Navbar ================== -->
+    <nav class="navbar">
+      <!-- logo -->
+      <a class="logo" href="#start_section"><i class="fa-regular fa-gem"></i> MyLogo</a>
+      <!-- burger - only visible if screen is smaller then 850px -->
+      <label class="menu_btn">
+        <div class="b1 burger_bar"></div>
+        <div class="b2 burger_bar"></div>
+        <div class="b3 burger_bar"></div>
+      </label>
+      <!-- nav links -->
       <ul class="nav_links">
+        <li><a href="#about_section">About Me</a></li>
         <li><a href="#">Web Projects</a></li>
         <li><a href="#">Game Projects</a></li>
-        <li><a href="#">My Third Link</a></li>
       </ul>
     </nav>
+    <!-- ================== Main ================== -->
     <main>
-      <section class="start content_box">
+      <section id="start_section" class="content_box">
         <p>Hello Friend, my name is</p>
         <h1>Sieghard Hillbrecht.</h1>
         <h3>I build things for the web.</h3>
       </section>
-      <section class="about content_box">
+      <section id="about_section" class="content_box">
         <h2>About Me</h2>
         <p>
           My name is Sieghard and i enjoy creating things for the internet. I started coding back in
-          2020 to learn how to code my own video games. This ignite a pashion for coding and
+          2019 to learn how to code my own video games. This ignite a pashion for coding and
           software engineering. I am still making my own games, but now also focuse on front-end web
           development.
         </p>
@@ -35,12 +45,13 @@
         <ul class="about_list">
           <li>HTML</li>
           <li>CSS</li>
-          <li>Javascript (ES6+)</li>
+          <li>Javascript</li>
           <li>Godot</li>
           <li>GDScript</li>
         </ul>
       </section>
     </main>
+    <!-- ================== Footer ================== -->
     <footer>
       <ul class="footer_links">
         <li>
@@ -62,5 +73,7 @@
         <li class="footer_links_end"></li>
       </ul>
     </footer>
+    <script src="https://kit.fontawesome.com/12bc7dd6b9.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
   </body>
 </html>

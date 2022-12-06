@@ -1,0 +1,42 @@
+.resume__grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#main__resume h3 {
+  padding-top: 2rem;
+}
+
+#main__resume p {
+  padding: 0;
+}
+
+#myFoto {
+  padding-top: 2rem;
+  max-width: 40%;
+  max-height: 40%;
+  margin: auto;
+}
+
+.resume__margin {
+  margin-top: 0.4rem;
+}
+
+.main__resume__list li {
+  margin-left: 1rem;
+  list-style: square;
+}
+
+@media (max-width: 850px) {
+  .resume__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .resume__margin {
+    margin-top: 1rem;
+  }
+  #myFoto {
+    max-width: 80%;
+    max-height: 80%;
+  }
+}

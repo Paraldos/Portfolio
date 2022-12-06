@@ -102,7 +102,7 @@ nav.open .b3 {
 /* media query */
 @media (max-width: 850px) {
   nav {
-    height: var(--nav_height_small)
+    height: var(--nav_height_small);
   }
 
   nav .logo {

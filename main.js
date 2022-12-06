@@ -12,41 +12,42 @@ const RESUME__WORK = document.querySelector("#main__resume__work");
 const RESUME__TRAINING = document.querySelector("#main__resume__training");
 const RESUME__SCHOOL = document.querySelector("#main__resume__school");
 const RESUME__OTHER = document.querySelector("#main__resume__other");
-
-const RESUME__HEADER = document.querySelector("#main__resume__header");
-const RESUME__WORK__HEADER = document.querySelector("#main__resume__work__header");
-const RESUME__TRAINING__HEADER = document.querySelector("#main__resume__training__header");
-const RESUME__SCHOOL__HEADER = document.querySelector("#main__resume__school__header");
-const RESUME__OTHER__HEADER = document.querySelector("#main__resume__other__header");
+const RESUME__CHANGELANGUAGE = document.querySelector("#main__resume__changeLanguage");
 
 const resumeDB = {
-  language: "en",
+  language: "de",
   work: [
     {
       keyDE: "Seit 11/2017",
       keyEN: "Since 11/2017",
-      headerDE: "IT-Projektmanager, Landratsamt Rosenheim",
-      headerEN: "IT-Projektmanager, Administrative District Office Rosenheim, Germany",
-      tasksDE: [
+      valueDE: [
+        "IT-Projektmanager, Landratsamt Rosenheim",
         "Betreuung von 23 Landkreisschulen (Förderzentren, Realschulen, Gymnasien, Berufsschulen, Berufliche Oberschulen und Wirtschaftsschulen / ca. 1.800 Lehrkräfte und 18.000 Schüler)",
         "Koordination von IT- und Elektrodienstleister",
         "Haushaltsplanung, Rechnungsprüfung und Verwaltung von IT-Anforderungen",
         "Planung, Auswertung und Umsetzungsüberwachung von lokalen, nationalen und EU weiten Ausschreibungen (z.B. Datenschutzaudit, Umstellung auf zentrales Drucker Leasing, Förderprogramm Lehrerdienstgeräte, Förderprogramm Digitales Klassenzimmer)",
       ],
+      valueEN: [
+        "IT-Projektmanager, Administrative District Office Rosenheim, Germany",
+        "Tec managament for 23 discritc schools (Special Schools, Middle Schools, High Schools, Vocational Schools, Vocational High Schools and Business Schools / about 1,800 Teachers and 18,000 Students)",
+        "Supervision of IT Service Contractors, Media Tec Specialists and Electricians",
+        "Budgeting, accounting and generall administration for IT requirements",
+        "Planning, evaluation and supervision for local, national, and EU competitive tendering procedures (e.g. Data Privacy Audits, Centralized Printer Management, Subsidy Program: 'Teacherdevices', Subsidy Program: 'Digital Classroom')",
+      ],
     },
     {
       keyDE: "07/2017 bis 11/2017",
       keyEN: "07/2017 to 11/2017",
-      headerDE: "Transfergesellschaft, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim",
-      headerEN:
+      valueDE: ["Transfergesellschaft, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim"],
+      valueEN: [
         "Interim Employment Society, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim, Germany",
+      ],
     },
     {
       keyDE: "04/2015 bis 06/2017",
       keyEN: "04/2015 to 06/2017",
-      headerDE: "Support Techniker, Kathrein-Werke KG Rosenheim",
-      headerEN: "IT Support Engineer, Kathrein-Werke KG Rosenheim, Germany",
-      tasksDE: [
+      valueDE: [
+        "Support Techniker, Kathrein-Werke KG Rosenheim",
         "1st und 2nd Level Support (ca. 1.800 Mitarbeitern / Windows Umfeld)",
         "Nationaler und internationaler Telefonsupport",
         "Vorqualifizierung und Dispatching von Tickets (Erstellen und Verwalten von Incidents über das hauseigene Ticketsystem)",
@@ -54,43 +55,60 @@ const resumeDB = {
         "Benutzeradministration via Aktive Directory",
         "Pflege der Netzwerkinfrastruktur (Patchen, Cisco Switche konfigurieren, etc.)",
       ],
+      valueEN: [
+        "IT Support Engineer, Kathrein-Werke KG Rosenheim, Germany",
+        "1st and 2nd level support (about 1,800 employee / windows environment)",
+        "National and international tec support",
+        "VPN-User Support (home office and field workers)",
+        "Aktive Directory user administration",
+        "Maintenance of network infrastructure (e.g. configuration of accesspoints and switches)",
+      ],
     },
     {
       keyDE: "01/2012 bis 03/2015",
       keyEN: "01/2012 to 03/2015",
-      headerDE: "Service Techniker, D-Ploy GmbH, eingesetzt bei Hexal AG Holzkirchen",
-      headerEN: "IT Support Engineer, D-Ploy GmbH, Deployment Site: Hexal AG Holzkirchen, Germany",
-      tasksDE: [
+      valueDE: [
+        "Service Techniker, D-Ploy GmbH, eingesetzt bei Hexal AG Holzkirchen",
         "1st und 2nd Level Support (ca. 2.800 Mitarbeitern / Windows Umfeld)",
         "Stellvertretender Teamleiter Second Level",
+      ],
+      valueEN: [
+        "IT Support Engineer, D-Ploy GmbH, Deployment Site: Hexal AG Holzkirchen, Germany",
+        "1st and 2nd level support (about 2,800 employee / windows environment)",
+        "Deupty team manager 2nd level",
       ],
     },
     {
       keyDE: "11/2011 bis 12/2011",
       keyEN: "11/2011 to 12/2011",
-      headerDE: "Juniortechniker, Computacenter GmbH, eingesetzt bei Munich Re AG, München",
-      headerEN:
+      valueDE: [
+        "Juniortechniker, Computacenter GmbH, eingesetzt bei Munich Re AG, München",
+        "1st Level Support (ca. 2.000 Mitarbeitern / Windows Umfeld)",
+      ],
+      valueEN: [
         "Junior IT Engineer, Computacenter GmbH, Deployment Site: Munich Re AG, München, Germany",
-      tasksDE: ["1st Level Support (ca. 2.000 Mitarbeitern / Windows Umfeld)"],
+        "1st and 2nd level support (about 2,000 employee / windows environment)",
+      ],
     },
     {
       keyDE: "12/2008 bis 04/2009",
       keyEN: "12/2008 to 04/2009",
-      headerDE: "Versicherungskaufmann, Allianz AG, Rosenheim",
-      headerEN: "Insurance Salesman, Allianz AG, Rosenheim, Germany",
+      valueDE: ["Versicherungskaufmann, Allianz AG, Rosenheim"],
+      valueEN: ["Insurance Salesman, Allianz AG, Rosenheim, Germany"],
     },
     {
       keyDE: "05/2007 bis 07/2007",
       keyEN: "05/2007 to 07/2007",
-      headerDE: "Registratur Hilfstätigkeit, Steuerstelle Gemeinde Inzell",
-      headerEN:
-        "Registry Auxiliary Activity, Taxdepartment Municipal Administration Inzell, Germany",
+      valueDE: ["Registratur Hilfstätigkeit, Steuerstelle Gemeinde Inzell"],
+      valueEN: [
+        "Registry auxiliary activity, Taxdepartment Municipal Administration Inzell, Germany",
+      ],
     },
     {
       keyDE: "02/2006 bis 01/2007",
       keyEN: "02/2006 to 01/2007",
-      headerDE: "Lagerist, Dr. Johannes Heidenhain GmbH, Traunreut",
-      headerEN: "Storeman, Dr. Johannes Heidenhain GmbH, Traunreut, Germany",
+      valueDE: ["Lagerist, Dr. Johannes Heidenhain GmbH, Traunreut"],
+      valueEN: ["Storeman, Dr. Johannes Heidenhain GmbH, Traunreut, Germany"],
     },
   ],
   training: [
@@ -98,7 +116,7 @@ const resumeDB = {
       keyDE: "09/2009 bis 07/2011",
       keyEN: "09/2009 to 07/2011",
       valueDE: "Fachinformatiker Systemintegration, bfz gGmbH, Rosenheim",
-      valueEN: "IT specialist for system integration, bfz gGmbH, Rosenheim, Germany",
+      valueEN: "IT Specialist for System Integration, bfz gGmbH, Rosenheim, Germany",
     },
     {
       keyDE: "08/2003 bis 01/2006",
@@ -114,7 +132,7 @@ const resumeDB = {
       keyDE: "09/2007 bis 08/2008",
       keyEN: "09/2007 to 08/2008",
       valueDE: "Berufliche Oberschule (BOS), Traunstein ",
-      valueEN: "Berufliche Oberschule (BOS) (vocational High School), Traunstein, Germany",
+      valueEN: "Berufliche Oberschule (BOS) (Vocational High School), Traunstein, Germany",
     },
     {
       keyDE: "09/2000 bis 07/2003",
@@ -176,131 +194,112 @@ NAVBUTTONS.forEach((element) => {
   element.addEventListener("click", toggleNavMenu);
 });
 
-// ============================================================================ Resume
-function updateResume() {
-  resumeUpdateHeader();
-
-  updateResumeWork();
-  updateResumeTraining();
-  updateResumeSchool();
-  updateResumeOther();
-}
-updateResume();
-
-// ==== header
-function resumeUpdateHeader() {
-  if (resumeDB.language === "en") {
-    RESUME__HEADER.innerText = "Resume";
-    RESUME__WORK__HEADER.innerText = "Work";
-    RESUME__TRAINING__HEADER.innerText = "Career Training";
-    RESUME__SCHOOL__HEADER.innerText = "School";
-    RESUME__OTHER__HEADER.innerText = "Other";
-  }
-  if (resumeDB.language === "de") {
-    RESUME__HEADER.innerText = "Lebenslauf";
-    RESUME__WORK__HEADER.innerText = "Berufliche Tätigkeit";
-    RESUME__TRAINING__HEADER.innerText = "Ausbildung";
-    RESUME__SCHOOL__HEADER.innerText = "Schulbildung";
-    RESUME__OTHER__HEADER.innerText = "Sonstiges";
-  }
-}
-
+// ============================================================================
 // ==== work
-function resumeWork_getDate(text) {
-  let newDate = document.createElement("li");
-  newDate.innerHTML = text;
+function resume_work_key(key) {
+  let newDate = document.createElement("p");
+  newDate.innerHTML = key;
   return newDate;
 }
 
-function resumeWork_getHeader(text) {
-  let newHeader = document.createElement("p");
-  newHeader.innerHTML = text;
-  return newHeader;
-}
-
-function resumeWork_getTasks(taks) {
+function resume_work_value(value) {
   let newUl = document.createElement("ul");
-  newUl.classList.add("main__resume__list");
-  taks.forEach((task) => {
-    let newTask = document.createElement("li");
-    newTask.innerHTML = task;
-    newUl.appendChild(newTask);
+  value.forEach((el, index) => {
+    let newTest = document.createElement("li");
+    newTest.innerHTML = el;
+    if (index != 0) newTest.classList = "resume__list";
+    newUl.appendChild(newTest);
   });
   return newUl;
 }
 
-function updateResumeWork() {
-  // empty resume work
+function new_resume_work(key, value, language) {
+  let newLi = document.createElement("li");
+  newLi.classList = `resume__grid resume__margin ${language}`;
+  newLi.appendChild(resume_work_key(key));
+  newLi.appendChild(resume_work_value(value));
+  return newLi;
+}
+
+function update_resume_work() {
   RESUME__WORK.innerHTML = "";
-
-  // fill resume work from database
-  resumeDB.work.forEach((element) => {
-    let newLi = document.createElement("li");
-    newLi.classList = "resume__grid resume__margin";
-    RESUME__WORK.appendChild(newLi);
-
-    // add date
-    if (resumeDB.language === "de") newLi.appendChild(resumeWork_getDate(element.keyDE));
-    else newLi.appendChild(resumeWork_getDate(element.keyEN));
-
-    // add header and tasks
-    let newHeaderAndTasks = document.createElement("div");
-    newLi.appendChild(newHeaderAndTasks);
-
-    // header
-
-    if (resumeDB.language === "de")
-      newHeaderAndTasks.appendChild(resumeWork_getHeader(element.headerDE));
-    else newHeaderAndTasks.appendChild(resumeWork_getHeader(element.headerEN));
-
-    // tasks
-    if (element.tasksDE) newHeaderAndTasks.appendChild(resumeWork_getTasks(element.tasksDE));
+  resumeDB.work.forEach((el) => {
+    RESUME__WORK.appendChild(new_resume_work(el.keyDE, el.valueDE, "de"));
+    RESUME__WORK.appendChild(new_resume_work(el.keyEN, el.valueEN, "en"));
   });
 }
+update_resume_work();
 
-// ==== training
-function updateResumeTraining() {
-  // empty resume training
+// ======== training
+function new_resume_training(key, value, language) {
+  let newLi = document.createElement("li");
+  newLi.classList = `resume__grid resume__margin ${language}`;
+  newLi.innerHTML = `<p>${key}</p><p>${value}</p>`;
+  return newLi;
+}
+
+function update_resume_training() {
   RESUME__TRAINING.innerHTML = "";
-
-  // fill resume training from database
-  resumeDB.training.forEach((element) => {
-    let newLi = document.createElement("li");
-    newLi.classList = "resume__grid resume__margin";
-    if (resumeDB.language === "de")
-      newLi.innerHTML = `<p>${element.keyDE}</p><p>${element.valueDE}</p>`;
-    else newLi.innerHTML = `<p>${element.keyEN}</p><p>${element.valueEN}</p>`;
-    RESUME__TRAINING.appendChild(newLi);
+  resumeDB.training.forEach((el) => {
+    RESUME__TRAINING.appendChild(new_resume_training(el.keyDE, el.valueDE, "de"));
+    RESUME__TRAINING.appendChild(new_resume_training(el.keyEN, el.valueEN, "en"));
   });
 }
+update_resume_training();
 
-// ==== school
-function updateResumeSchool() {
-  // empty resume school
+// ======== school
+function new_resume_school(key, value, language) {
+  let newLi = document.createElement("li");
+  newLi.classList = `resume__grid resume__margin ${language}`;
+  newLi.innerHTML = `<p>${key}</p><p>${value}</p>`;
+  return newLi;
+}
+
+function update_resume_school() {
   RESUME__SCHOOL.innerHTML = "";
-
-  // fill resume school from database
-  resumeDB.school.forEach((element) => {
-    let newLi = document.createElement("li");
-    newLi.classList = "resume__grid resume__margin";
-    if (resumeDB.language === "de")
-      newLi.innerHTML = `<p>${element.keyDE}</p><p>${element.valueDE}</p>`;
-    else newLi.innerHTML = `<p>${element.keyEN}</p><p>${element.valueEN}</p>`;
-    RESUME__SCHOOL.appendChild(newLi);
+  resumeDB.school.forEach((el) => {
+    RESUME__SCHOOL.appendChild(new_resume_school(el.keyDE, el.valueDE, "de"));
+    RESUME__SCHOOL.appendChild(new_resume_school(el.keyEN, el.valueEN, "en"));
   });
 }
+update_resume_school();
 
-// ==== other
-function updateResumeOther() {
-  // empty resume other
+// ======== other
+function new_resume_other(text, language) {
+  let newLi = document.createElement("li");
+  newLi.classList = `resume__margin ${language}`;
+  newLi.innerHTML = `<p>${text}</p>`;
+  return newLi;
+}
+
+function update_resume_other() {
   RESUME__OTHER.innerHTML = "";
-
-  // fill resume other from database
-  resumeDB.other.forEach((element) => {
-    let newLi = document.createElement("li");
-    newLi.classList = "resume__margin";
-    if (resumeDB.language === "de") newLi.innerHTML = `<p>${element.valueDE}</p>`;
-    else newLi.innerHTML = `<p>${element.valueEN}</p>`;
-    RESUME__OTHER.appendChild(newLi);
+  resumeDB.other.forEach((el) => {
+    RESUME__OTHER.appendChild(new_resume_other(el.valueDE, "de"));
+    RESUME__OTHER.appendChild(new_resume_other(el.valueEN, "en"));
   });
 }
+update_resume_other();
+
+// toggle resume language
+function resume_change_Language() {
+  let EN_ELEMENTS = document.querySelectorAll(".en");
+  let DE_ELEMENTS = document.querySelectorAll(".de");
+
+  if (resumeDB.language === "de") {
+    EN_ELEMENTS.forEach((el) => el.classList.add("invisible"));
+    DE_ELEMENTS.forEach((el) => el.classList.remove("invisible"));
+    RESUME__CHANGELANGUAGE.innerText = "DE";
+  } else if (resumeDB.language === "en") {
+    EN_ELEMENTS.forEach((el) => el.classList.remove("invisible"));
+    DE_ELEMENTS.forEach((el) => el.classList.add("invisible"));
+    RESUME__CHANGELANGUAGE.innerText = "EN";
+  }
+}
+resume_change_Language();
+
+RESUME__CHANGELANGUAGE.addEventListener("click", () => {
+  if (resumeDB.language === "en") resumeDB.language = "de";
+  else resumeDB.language = "en";
+  resume_change_Language();
+});

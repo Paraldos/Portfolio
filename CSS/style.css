@@ -86,7 +86,7 @@ main {
   min-height: 100vh;
   box-sizing: border-box;
   padding: 3rem;
-  padding-top: var(--nav_height_big);
+  padding-top: calc(var(--nav_height_big) + 2rem);
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
@@ -172,7 +172,7 @@ footer ul {
 @media (max-width: 850px) {
   .content_box {
     padding: 1rem;
-    padding-top: var(--nav_height_small);
+    padding-top: calc(var(--nav_height_small) + 1rem);
   }
 
   .main__about__list {

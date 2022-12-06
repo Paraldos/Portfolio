@@ -15,7 +15,7 @@ const RESUME__OTHER = document.querySelector("#main__resume__other");
 const RESUME__CHANGELANGUAGE = document.querySelector("#main__resume__changeLanguage");
 
 const resumeDB = {
-  language: "de",
+  language: "en",
   work: [
     {
       keyDE: "Seit 11/2017",

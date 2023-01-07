@@ -1,8 +1,9 @@
+/* ================================================ article */
 #games article {
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
-/* links */
+/* ================================================ links */
 .game__links {
   display: flex;
   justify-content: space-around;
@@ -25,17 +26,26 @@
   color: var(--color_accent);
 }
 
-/* carousel */
-.games__bigPicture {
-  width: 100%;
+/* ================================================ SwiperJS */
+/* https://swiperjs.com/swiper-api */
+.swiper {
+  max-width: 100%;
+  max-height: 80vh;
 }
 
-.games__carousel {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+.swiper img {
+  width: 100%;
+  max-height: 80vh;
+  margin: auto;
+  object-fit: contain;
+  object-position: center;
 }
 
-.games__pictures ul img {
-  width: 100%;
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--color_text) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color_text) !important;
 }

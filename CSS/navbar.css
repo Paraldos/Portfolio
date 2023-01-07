@@ -4,12 +4,15 @@ nav {
   left: 0;
   width: 100vw;
   height: var(--nav_height_big);
+
   background-color: var(--color_bacbkground_dark);
+  border-bottom: var(--nav_border) solid var(--color_text);
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: var(--nav_border) solid var(--color_text);
   transform-style: preserve-3d;
+  z-index: 5;
   padding-right: var(--scroll_width);
 }
 

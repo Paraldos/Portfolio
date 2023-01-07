@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="./CSS/navbar.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/about.css" />
+    <link rel="stylesheet" href="./CSS/resume.css" />
     <link rel="stylesheet" href="./CSS/games.css" />
     <link rel="stylesheet" href="./CSS/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
-    <link rel="stylesheet" href="./CSS/resume.css" />
+    <!-- Scripts -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+    ></script>
     <script
       defer
       src="https://kit.fontawesome.com/12bc7dd6b9.js"
@@ -98,21 +108,226 @@
 
       <section id="games">
         <h2>Game Projects</h2>
+        <p>
+          Here you find a collection of games I made. It is not a comprehensive
+          list, but it contains the projects most important to my journey as a
+          game developer.
+        </p>
+        <p>
+          >> As tools I use the Godot (game engine) and Aseprite (image editor
+          for pixel art).
+        </p>
+
+        <!-- =========================================== colony Defender 2-->
+        <article>
+          <h3>Colony Defender 2</h3>
+          <div class="game__description">
+            <p>
+              Colony Defender 2 has the most impressive presentation of any game
+              I made so far. Like it’s predecessor it is a shoot-em-up game, but
+              instead of the Atari 2600 era, it is inspired by game for the SNE
+              and Sega Genesis. The game is still in development, but the demo
+              is available on Itch.io.
+            </p>
+            <p>
+              Despite the simple premise, Colony Defender 2 is a complex game
+              with many different components which must work together. Planning
+              a file structure, building reusable templates and so on is in many
+              ways just as important building the game itself.
+            </p>
+            <div class="game__links">
+              <a
+                class="game__link"
+                href="https://lil-cthulhu.itch.io/colony-defender-2"
+                >Play</a
+              >
+              <a
+                class="game__link"
+                href="https://github.com/Paraldos/ColonyDefender2"
+                >Code</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <!-- SliderJS -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./pictures/ColonyDefender2_001.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/ColonyDefender2_002.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/ColonyDefender2_003.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/ColonyDefender2_004.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/ColonyDefender2_005.png" alt="" />
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="scrollbarDisabledClass"></div>
+            </div>
+            <!-- SliderJS -->
+          </div>
+        </article>
+
+        <!-- =========================================== slider puzzle-->
+        <article>
+          <h3>Slider Puzzle</h3>
+          <div class="game__description">
+            <p>
+              Slider Puzzle was another cute puzzle game, inspired by the NES
+              and SNES era. Like Happy Blocks it was made for mobile use and
+              with touch input in mind. This game was special however, as it was
+              the first time, I made a game to order.
+            </p>
+            <p>
+              Slider Puzzle can be played on Itch.io and is currently pending
+              its clearance for the Google Playstore.
+            </p>
+            <div class="game__links">
+              <a
+                class="game__link"
+                href="https://lil-cthulhu.itch.io/slider-puzzle"
+                >Play</a
+              >
+              <a
+                class="game__link"
+                href="https://github.com/Paraldos/SliderPuzzle"
+                >Code</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <!-- SliderJS -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./pictures/SliderPuzzle_001.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/SliderPuzzle_002.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/SliderPuzzle_003.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/SliderPuzzle_004.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/SliderPuzzle_005.png" alt="" />
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="scrollbarDisabledClass"></div>
+            </div>
+            <!-- SliderJS -->
+          </div>
+        </article>
+
+        <!-- =========================================== happy blocks-->
+        <article>
+          <h3>Happy Blocks</h3>
+          <div class="game__description">
+            <p>
+              Happy Blocks is a cute little puzzle game, inspired by game for
+              the NES and SNES gaming consoles. Your goal is to guide a little
+              blue block through a maze and collect candy on your way.
+            </p>
+            <p>
+              Happy Blocks was the first game I made specifically for
+              smartphones and with touch controls in mind. It also was the first
+              game I published on an official platform – the Google Playstore.
+            </p>
+            <div class="game__links">
+              <a
+                class="game__link"
+                href="https://lil-cthulhu.itch.io/happy-blocks"
+                >Play</a
+              >
+              <a
+                class="game__link"
+                href="https://play.google.com/store/apps/details?id=org.Happyblocks"
+                >Google Play</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <!-- SliderJS -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./pictures/HappyBlocks_001.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/HappyBlocks_002.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/HappyBlocks_003.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/HappyBlocks_004.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/HappyBlocks_005.png" alt="" />
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="scrollbarDisabledClass"></div>
+            </div>
+            <!-- SliderJS -->
+          </div>
+        </article>
+
+        <!-- =========================================== colony defender-->
         <article>
           <h3>Colony Defender</h3>
           <div class="game__description">
             <p>
               Colony Defender is a simple 1-bit shoot-em-up in the style of
-              Atari 2600 games. As game engine I used Godot v3.4.2. and the
-              sprites I drew with Aseprite. It was the first game I finished on
-              my own, without following any tutorials.
+              Atari 2600 games. It was the first game I finished on my own,
+              without following any tutorials.
             </p>
             <p>
               For me this was a very important step in game design. I stepped
               back from big, unrealistic ideas, and worked on something I was
-              certain I could build and finish. I learned how to research
-              programming questions and overcome problems by restructuring them
-              into small, manageable steps.
+              certain I could build and finish on my own. I learned how to
+              research programming questions and overcome problems by
+              disassembling them into smaller, more manageable steps.
             </p>
             <div class="game__links">
               <a
@@ -127,18 +342,37 @@
               >
             </div>
           </div>
-          <div class="games__pictures">
-            <img
-              class="games__bigPicture"
-              src="./pictures/ColonyDefender_001.png"
-              alt=""
-            />
-            <ul class="games__carousel">
-              <li><img src="./pictures/ColonyDefender_001.png" alt="" /></li>
-              <li><img src="./pictures/ColonyDefender_002.png" alt="" /></li>
-              <li><img src="./pictures/ColonyDefender_003.png" alt="" /></li>
-              <li><img src="./pictures/ColonyDefender_004.png" alt="" /></li>
-            </ul>
+
+          <div>
+            <!-- SliderJS -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./pictures/ColonyDefender_001.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/ColonyDefender_002.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/ColonyDefender_003.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/ColonyDefender_004.png" alt="" />
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="scrollbarDisabledClass"></div>
+            </div>
+            <!-- SliderJS -->
           </div>
         </article>
       </section>

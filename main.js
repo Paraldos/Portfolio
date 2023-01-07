@@ -205,7 +205,7 @@ NAVBUTTONS.forEach((element) => {
   element.addEventListener("click", toggleNavMenu);
 });
 
-// ============================================================================
+// ============================================================================ Resume
 // ==== work
 function resume_work_key(key) {
   let newDate = document.createElement("p");
@@ -317,4 +317,29 @@ RESUME__CHANGELANGUAGE.addEventListener("click", () => {
   if (resumeDB.language === "en") resumeDB.language = "de";
   else resumeDB.language = "en";
   resume_change_Language();
+});
+
+// ============================================================================ SwiperJS
+// https://swiperjs.com/swiper-api
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+  effect: "cube",
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
 });

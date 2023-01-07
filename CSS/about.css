@@ -1,0 +1,22 @@
+.about__list {
+  padding-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.about__list li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f121";
+  display: inline-block;
+  padding-right: 0.6rem;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+@media (max-width: 850px) {
+  .about__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

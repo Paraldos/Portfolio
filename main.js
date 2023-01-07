@@ -6,13 +6,15 @@ const FOOTER = document.querySelector(".footer");
 const NAVLOGO = document.querySelector(".logo");
 const NAVBUTTONS = document.querySelectorAll(".navButton");
 
-const RESUME = document.querySelector(".main__resume");
-const RESUME__BASICS = document.querySelector("#main__resume__basics");
-const RESUME__WORK = document.querySelector("#main__resume__work");
-const RESUME__TRAINING = document.querySelector("#main__resume__training");
-const RESUME__SCHOOL = document.querySelector("#main__resume__school");
-const RESUME__OTHER = document.querySelector("#main__resume__other");
-const RESUME__CHANGELANGUAGE = document.querySelector("#main__resume__changeLanguage");
+const RESUME = document.querySelector(".resume");
+const RESUME__BASICS = document.querySelector("#resume__basics");
+const RESUME__WORK = document.querySelector("#resume__work");
+const RESUME__TRAINING = document.querySelector("#resume__training");
+const RESUME__SCHOOL = document.querySelector("#resume__school");
+const RESUME__OTHER = document.querySelector("#resume__other");
+const RESUME__CHANGELANGUAGE = document.querySelector(
+  "#resume__changeLanguage"
+);
 
 const resumeDB = {
   language: "en",
@@ -38,7 +40,9 @@ const resumeDB = {
     {
       keyDE: "07/2017 bis 11/2017",
       keyEN: "07/2017 to 11/2017",
-      valueDE: ["Transfergesellschaft, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim"],
+      valueDE: [
+        "Transfergesellschaft, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim",
+      ],
       valueEN: [
         "Interim Employment Society, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim, Germany",
       ],
@@ -116,7 +120,8 @@ const resumeDB = {
       keyDE: "09/2009 bis 07/2011",
       keyEN: "09/2009 to 07/2011",
       valueDE: "Fachinformatiker Systemintegration, bfz gGmbH, Rosenheim",
-      valueEN: "IT Specialist for System Integration, bfz gGmbH, Rosenheim, Germany",
+      valueEN:
+        "IT Specialist for System Integration, bfz gGmbH, Rosenheim, Germany",
     },
     {
       keyDE: "08/2003 bis 01/2006",
@@ -132,12 +137,14 @@ const resumeDB = {
       keyDE: "09/2007 bis 08/2008",
       keyEN: "09/2007 to 08/2008",
       valueDE: "Berufliche Oberschule (BOS), Traunstein ",
-      valueEN: "Berufliche Oberschule (BOS) (Vocational High School), Traunstein, Germany",
+      valueEN:
+        "Berufliche Oberschule (BOS) (Vocational High School), Traunstein, Germany",
     },
     {
       keyDE: "09/2000 bis 07/2003",
       keyEN: "09/2000 to 07/2003",
-      valueDE: "Mittlere Reife, Private Wirtschafsschule Dr. Kalscheuer, Traunstein",
+      valueDE:
+        "Mittlere Reife, Private Wirtschafsschule Dr. Kalscheuer, Traunstein",
       valueEN:
         "Mittlere Reife (Middle Maturity / comparable with the British GCSE), Private Wirtschafsschule Dr. Kalscheuer, Traunstein, Germany",
     },
@@ -154,16 +161,20 @@ const resumeDB = {
         "Certificate: The Complete JavaScript Course 2022: From Zero to Expert (Udemy, 09/2022)",
     },
     {
-      valueDE: "Zertifikat: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)",
-      valueEN: "Certificate: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)",
+      valueDE:
+        "Zertifikat: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)",
+      valueEN:
+        "Certificate: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)",
     },
     {
       valueDE: "Zertifikat: Responsive Web Design (freeCodeCamp, 12/2021)",
       valueEN: "Certificate: Responsive Web Design (freeCodeCamp, 12/2021)",
     },
     {
-      valueDE: "Zertifikat: ITIL Foundation Certificate in IT Service Management (09/2012)",
-      valueEN: "Certificate: ITIL Foundation Certificate in IT Service Management (09/2012)",
+      valueDE:
+        "Zertifikat: ITIL Foundation Certificate in IT Service Management (09/2012)",
+      valueEN:
+        "Certificate: ITIL Foundation Certificate in IT Service Management (09/2012)",
     },
   ],
 };
@@ -241,8 +252,12 @@ function new_resume_training(key, value, language) {
 function update_resume_training() {
   RESUME__TRAINING.innerHTML = "";
   resumeDB.training.forEach((el) => {
-    RESUME__TRAINING.appendChild(new_resume_training(el.keyDE, el.valueDE, "de"));
-    RESUME__TRAINING.appendChild(new_resume_training(el.keyEN, el.valueEN, "en"));
+    RESUME__TRAINING.appendChild(
+      new_resume_training(el.keyDE, el.valueDE, "de")
+    );
+    RESUME__TRAINING.appendChild(
+      new_resume_training(el.keyEN, el.valueEN, "en")
+    );
   });
 }
 update_resume_training();

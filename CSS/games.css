@@ -1,0 +1,41 @@
+#games article {
+  margin-top: 1rem;
+}
+
+/* links */
+.game__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.game__link {
+  display: block;
+  margin: 1rem;
+  margin-left: 0;
+  width: fit-content;
+  font-size: 1.5rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.game__link::before {
+  content: ">> ";
+}
+
+.game__link:hover {
+  color: var(--color_accent);
+}
+
+/* carousel */
+.games__bigPicture {
+  width: 100%;
+}
+
+.games__carousel {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.games__pictures ul img {
+  width: 100%;
+}

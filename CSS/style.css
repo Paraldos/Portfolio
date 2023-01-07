@@ -28,6 +28,15 @@
   font-size: 20px;
 }
 
+@media (max-width: 850px) {
+}
+
+@media (max-width: 600) {
+  * {
+    font-size: 14px;
+  }
+}
+
 body {
   height: 100%;
   background-color: var(--color_bacbkground_light);
@@ -77,113 +86,49 @@ h3 {
 /* ============================ main ============================ */
 main {
   margin: 0px auto;
-  height: calc(100vh - var(--nav_height_big));
-  width: 100%;
-  max-width: 1024px;
+  min-height: 100vh;
+  max-width: 800px;
 }
 
-.content_box {
+section {
   min-height: 100vh;
-  box-sizing: border-box;
-  padding: 3rem;
-  padding-top: calc(var(--nav_height_big) + 2rem);
+  padding-top: calc(var(--nav_height_big) + 1rem);
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.content_box p {
-  padding: 0.5rem 0;
-}
-
-/* === start === */
-#main__start p {
-  padding-top: var(--nav_height_big);
-}
-
-#main__start h1 {
-  text-align: center;
-}
-
-#main__start h3 {
-  text-align: end;
-}
-
-/* === about === */
-.main__about__list {
-  padding-top: 0.5rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-}
-
-.main__about__list li::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f121";
-  display: inline-block;
-  padding-right: 0.6rem;
-  vertical-align: middle;
-  font-weight: 900;
-}
-
-/* ============================ footer ============================ */
-footer {
-  position: fixed;
-  bottom: 0;
-
-  display: flex;
-  align-items: flex-end;
-}
-
-footer ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer_links_end {
-  width: 0.2rem;
-  height: 15vh;
-  background-color: var(--color_text);
-}
-
-.footer_links a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 4rem;
-  height: 4rem;
-  transition: all 0.3s ease 0s;
-}
-
-.footer_links i {
-  color: inherit;
-  font-size: 1.6rem;
-}
-
-.footer_links a:hover {
-  color: var(--color2);
-  transform: translate(5px, 0) rotate(5deg);
+section p {
+  margin: 0.5rem 0;
 }
 
 @media (max-width: 850px) {
-  .content_box {
+  section {
     padding: 1rem;
     padding-top: calc(var(--nav_height_small) + 1rem);
   }
+}
 
-  .main__about__list {
-    grid-template-columns: repeat(2, 1fr);
+/* === start === */
+#landing h1 {
+  text-align: center;
+}
+
+#landing h3 {
+  text-align: end;
+}
+
+@media (max-width: 850px) {
+  #landing p {
+    text-align: center;
   }
 
-  footer {
-    bottom: -100vh;
-    transition: bottom 0.4s ease-in-out;
+  #landing h1 {
+    font-size: 3rem;
   }
-  footer.open {
-    bottom: -0;
+
+  #landing h3 {
+    text-align: center;
   }
 }

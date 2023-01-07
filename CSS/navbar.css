@@ -99,7 +99,6 @@ nav.open .b3 {
   transform: rotate(45deg);
 }
 
-/* media query */
 @media (max-width: 850px) {
   nav {
     height: var(--nav_height_small);
@@ -134,9 +133,18 @@ nav.open .b3 {
   }
 
   nav ul a {
+    font-size: 1.5rem;
     padding: 1.5rem 0;
   }
+
   nav.open ul {
     top: 0;
+  }
+}
+
+/* media query */
+@media (max-width: 400px) {
+  nav ul a {
+    font-size: 1rem;
   }
 }

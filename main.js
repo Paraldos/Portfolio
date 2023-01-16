@@ -30,16 +30,16 @@ const resumeDB = {
         "Planung, Auswertung und Umsetzungsüberwachung von lokalen, nationalen und EU weiten Ausschreibungen (z.B. Datenschutzaudit, Umstellung auf zentrales Drucker Leasing, Förderprogramm Lehrerdienstgeräte, Förderprogramm Digitales Klassenzimmer)",
       ],
       valueEN: [
-        "IT-Projektmanager, Administrative District Office Rosenheim, Germany",
-        "Tec managament for 23 discritc schools (Special Schools, Middle Schools, High Schools, Vocational Schools, Vocational High Schools and Business Schools / about 1,800 Teachers and 18,000 Students)",
+        "IT-Projectmanager, Administrative District Office Rosenheim, Germany",
+        "Tec managament for 23 district schools (Special Schools, Middle Schools, High Schools, Vocational Schools, Vocational High Schools and Business Schools / about 1,800 Teachers and 18,000 Students)",
         "Supervision of IT Service Contractors, Media Tec Specialists and Electricians",
-        "Budgeting, accounting and generall administration for IT requirements",
+        "Budgeting, accounting and general administration for IT requirements",
         "Planning, evaluation and supervision for local, national, and EU competitive tendering procedures (e.g. Data Privacy Audits, Centralized Printer Management, Subsidy Program: 'Teacherdevices', Subsidy Program: 'Digital Classroom')",
       ],
     },
     {
-      keyDE: "07/2017 bis 11/2017",
-      keyEN: "07/2017 to 11/2017",
+      keyDE: "07/2017 bis 10/2017",
+      keyEN: "07/2017 to 10/2017",
       valueDE: [
         "Transfergesellschaft, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim",
       ],
@@ -56,7 +56,7 @@ const resumeDB = {
         "Nationaler und internationaler Telefonsupport",
         "Vorqualifizierung und Dispatching von Tickets (Erstellen und Verwalten von Incidents über das hauseigene Ticketsystem)",
         "Betreuung und Support von VPN-Usern (Homeoffice und Außendienstler)",
-        "Benutzeradministration via Aktive Directory",
+        "Benutzeradministration via Active Directory",
         "Pflege der Netzwerkinfrastruktur (Patchen, Cisco Switche konfigurieren, etc.)",
       ],
       valueEN: [
@@ -64,8 +64,8 @@ const resumeDB = {
         "1st and 2nd level support (about 1,800 employee / windows environment)",
         "National and international tec support",
         "VPN-User Support (home office and field workers)",
-        "Aktive Directory user administration",
-        "Maintenance of network infrastructure (e.g. configuration of accesspoints and switches)",
+        "Active Directory user administration",
+        "Maintenance of network infrastructure (e.g. configuration of access points and switches)",
       ],
     },
     {
@@ -79,7 +79,7 @@ const resumeDB = {
       valueEN: [
         "IT Support Engineer, D-Ploy GmbH, Deployment Site: Hexal AG Holzkirchen, Germany",
         "1st and 2nd level support (about 2,800 employee / windows environment)",
-        "Deupty team manager 2nd level",
+        "Deputy team manager 2nd level",
       ],
     },
     {
@@ -144,9 +144,9 @@ const resumeDB = {
       keyDE: "09/2000 bis 07/2003",
       keyEN: "09/2000 to 07/2003",
       valueDE:
-        "Mittlere Reife, Private Wirtschafsschule Dr. Kalscheuer, Traunstein",
+        "Mittlere Reife, Private Wirtschaftsschule Dr. Kalscheuer, Traunstein",
       valueEN:
-        "Mittlere Reife (Middle Maturity / comparable with the British GCSE), Private Wirtschafsschule Dr. Kalscheuer, Traunstein, Germany",
+        "Mittlere Reife (Middle Maturity / comparable with the British GCSE), Private Wirtschaftsschule Dr. Kalscheuer, Traunstein, Germany",
     },
   ],
   other: [

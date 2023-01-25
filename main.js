@@ -30,11 +30,11 @@ const resumeDB = {
         "Planung, Auswertung und Umsetzungsüberwachung von lokalen, nationalen und EU weiten Ausschreibungen (z.B. Datenschutzaudit, Umstellung auf zentrales Drucker Leasing, Förderprogramm Lehrerdienstgeräte, Förderprogramm Digitales Klassenzimmer)",
       ],
       valueEN: [
-        "IT-Projectmanager, Administrative District Office Rosenheim, Germany",
-        "Tec managament for 23 district schools (Special Schools, Middle Schools, High Schools, Vocational Schools, Vocational High Schools and Business Schools / about 1,800 Teachers and 18,000 Students)",
+        "IT Project manager, Administrative District Office Rosenheim, Germany",
+        "Tec management for 23 district schools (Special Schools, Middle Schools, High Schools, Vocational Schools, Vocational High Schools and Business Schools / about 1,800 Teachers and 18,000 Students)",
         "Supervision of IT Service Contractors, Media Tec Specialists and Electricians",
-        "Budgeting, accounting and general administration for IT requirements",
-        "Planning, evaluation and supervision for local, national, and EU competitive tendering procedures (e.g. Data Privacy Audits, Centralized Printer Management, Subsidy Program: 'Teacherdevices', Subsidy Program: 'Digital Classroom')",
+        "Budgeting, accounting, and general administration for IT requirements",
+        "Planning, evaluation and supervision for local, national, and EU competitive tendering procedures (e.g., Data Privacy Audits, Centralized Printer Management, Subsidy Program: 'Teacher devices', Subsidy Program: 'Digital Classroom')",
       ],
     },
     {
@@ -65,7 +65,7 @@ const resumeDB = {
         "National and international tec support",
         "VPN-User Support (home office and field workers)",
         "Active Directory user administration",
-        "Maintenance of network infrastructure (e.g. configuration of access points and switches)",
+        "Maintenance of network infrastructure (e.g., configuration of access points and switches)",
       ],
     },
     {
@@ -169,6 +169,10 @@ const resumeDB = {
     {
       valueDE: "Zertifikat: Responsive Web Design (freeCodeCamp, 12/2021)",
       valueEN: "Certificate: Responsive Web Design (freeCodeCamp, 12/2021)",
+    },
+    {
+      valueDE: "Zertifikat: 1-Bit Godot Course by Heartbeast (08/2021)",
+      valueEN: "Certificate: 1-Bit Godot Course by Heartbeast (08/2021)",
     },
     {
       valueDE:

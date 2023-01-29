@@ -13,7 +13,6 @@
   --nav_height_big: 4rem;
   --nav_height_small: 3rem;
   --nav_border: 0.2rem;
-  --nav_li: 180px;
 }
 
 /* ============================ basics ============================ */
@@ -114,28 +113,5 @@ section p {
   section {
     padding: 1rem;
     padding-top: calc(var(--nav_height_small) + 1rem);
-  }
-}
-
-/* === start === */
-#landing h1 {
-  text-align: center;
-}
-
-#landing h3 {
-  text-align: end;
-}
-
-@media (max-width: 850px) {
-  #landing p {
-    text-align: center;
-  }
-
-  #landing h1 {
-    font-size: 3rem;
-  }
-
-  #landing h3 {
-    text-align: center;
   }
 }

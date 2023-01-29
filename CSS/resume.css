@@ -16,15 +16,20 @@
 .resume__grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  margin-top: 0.4rem;
 }
 
-.resume__margin {
-  margin-top: 0.4rem;
+.resume__grid p {
+  margin: 0;
 }
 
 .resume__list {
   margin-left: 1.5rem;
   list-style: square;
+}
+.resume__list:first-child {
+  margin-left: 0;
+  list-style-type: none;
 }
 
 .invisible {
@@ -36,7 +41,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-#resume__changeLanguage {
+#resume__button {
   width: 50px;
   height: 50px;
   border: none;
@@ -49,7 +54,7 @@
   transition: all 0.1s ease-in-out;
 }
 
-#resume__changeLanguage:hover {
+#resume__button:hover {
   cursor: pointer;
   background: var(--color_accent);
   transform: scale(0.95);

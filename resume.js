@@ -52,16 +52,24 @@ const resume_work = [
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
     [
-      "Transfergesellschaft, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim",
+      "Interim Employment Society, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim, Germany",
     ],
     [
-      "Interim Employment Society, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim, Germany",
+      "Transfergesellschaft, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim",
     ],
     "07/2017",
     "10/2017"
   ),
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
+    [
+      "IT Support Engineer, Kathrein-Werke KG Rosenheim, Germany",
+      "1st and 2nd level support (about 1,800 employee / windows environment)",
+      "National and international tec support",
+      "VPN-User Support (home office and field workers)",
+      "Active Directory user administration",
+      "Maintenance of network infrastructure (e.g., configuration of access points and switches)",
+    ],
     [
       "Support Techniker, Kathrein-Werke KG Rosenheim",
       "1st und 2nd Level Support (ca. 1.800 Mitarbeitern / Windows Umfeld)",
@@ -71,28 +79,20 @@ const resume_work = [
       "Benutzeradministration via Active Directory",
       "Pflege der Netzwerkinfrastruktur (Patchen, Cisco Switche konfigurieren, etc.)",
     ],
-    [
-      "IT Support Engineer, Kathrein-Werke KG Rosenheim, Germany",
-      "1st and 2nd level support (about 1,800 employee / windows environment)",
-      "National and international tec support",
-      "VPN-User Support (home office and field workers)",
-      "Active Directory user administration",
-      "Maintenance of network infrastructure (e.g., configuration of access points and switches)",
-    ],
     "04/2015",
     "06/2017"
   ),
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
     [
-      "Service Techniker, D-Ploy GmbH, eingesetzt bei Hexal AG Holzkirchen",
-      "1st und 2nd Level Support (ca. 2.800 Mitarbeitern / Windows Umfeld)",
-      "Stellvertretender Teamleiter Second Level",
-    ],
-    [
       "IT Support Engineer, D-Ploy GmbH, Deployment Site: Hexal AG Holzkirchen, Germany",
       "1st and 2nd level support (about 2,800 employee / windows environment)",
       "Deputy team manager 2nd level",
+    ],
+    [
+      "Service Techniker, D-Ploy GmbH, eingesetzt bei Hexal AG Holzkirchen",
+      "1st und 2nd Level Support (ca. 2.800 Mitarbeitern / Windows Umfeld)",
+      "Stellvertretender Teamleiter Second Level",
     ],
     "01/2012",
     "03/2015"
@@ -100,35 +100,35 @@ const resume_work = [
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
     [
-      "Juniortechniker, Computacenter GmbH, eingesetzt bei Munich Re AG, München",
-      "1st Level Support (ca. 2.000 Mitarbeitern / Windows Umfeld)",
-    ],
-    [
       "Junior IT Engineer, Computacenter GmbH, Deployment Site: Munich Re AG, München, Germany",
       "1st and 2nd level support (about 2,000 employee / windows environment)",
+    ],
+    [
+      "Juniortechniker, Computacenter GmbH, eingesetzt bei Munich Re AG, München",
+      "1st Level Support (ca. 2.000 Mitarbeitern / Windows Umfeld)",
     ],
     "11/2011",
     "12/2011"
   ),
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
-    ["Versicherungskaufmann, Allianz AG, Rosenheim"],
     ["Insurance Salesman, Allianz AG, Rosenheim, Germany"],
+    ["Versicherungskaufmann, Allianz AG, Rosenheim"],
     "12/2008",
     "04/2009"
   ),
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
-    ["Registratur Hilfstätigkeit, Steuerstelle Gemeinde Inzell"],
     [
       "Registry auxiliary activity, Taxdepartment Municipal Administration Inzell, Germany",
     ],
+    ["Registratur Hilfstätigkeit, Steuerstelle Gemeinde Inzell"],
     "05/2007",
     "07/2007"
   ), /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
-    ["Lagerist, Dr. Johannes Heidenhain GmbH, Traunreut"],
     ["Storeman, Dr. Johannes Heidenhain GmbH, Traunreut, Germany"],
+    ["Lagerist, Dr. Johannes Heidenhain GmbH, Traunreut"],
     "02/2006",
     "01/2007"
   ),
@@ -137,18 +137,18 @@ const resume_work = [
 const resume_training = [
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
-    ["Fachinformatiker Systemintegration, bfz gGmbH, Rosenheim"],
     ["IT Specialist for System Integration, bfz gGmbH, Rosenheim, Germany"],
+    ["Fachinformatiker Systemintegration, bfz gGmbH, Rosenheim"],
     "09/2009",
     "07/2011"
   ),
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
     [
-      "Kaufmann im Groß- und Außenhandel, Alois Höflschweiger Landmaschinentechnik, Siegsdorf",
+      "Management assistant in wholesale and foreign trade, Alois Höflschweiger Landmaschinentechnik, Siegsdorf, Germany",
     ],
     [
-      "Management assistant in wholesale and foreign trade, Alois Höflschweiger Landmaschinentechnik, Siegsdorf, Germany",
+      "Kaufmann im Groß- und Außenhandel, Alois Höflschweiger Landmaschinentechnik, Siegsdorf",
     ],
     "08/2003",
     "01/2006"
@@ -158,19 +158,19 @@ const resume_training = [
 const resume_school = [
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
-    ["Berufliche Oberschule (BOS), Traunstein "],
     [
       "Berufliche Oberschule (BOS) (Vocational High School), Traunstein, Germany",
     ],
+    ["Berufliche Oberschule (BOS), Traunstein "],
     "09/2007",
     "08/2008"
   ),
   /////////////////////////////////////////////////////////////////////////////////////
   new resumeElement(
-    ["Mittlere Reife, Private Wirtschaftsschule Dr. Kalscheuer, Traunstein"],
     [
-      "Mittlere Reife (Middle Maturity / comparable with the British GCSE), Private Wirtschaftsschule Dr. Kalscheuer, Traunstein, Germany",
+      "Mittlere Reife (Middle Maturity / comparable with the British GCSE), Private School of Economics Dr. Kalscheuer, Traunstein, Germany",
     ],
+    ["Mittlere Reife, Private Wirtschaftsschule Dr. Kalscheuer, Traunstein"],
     "09/2000",
     "07/2003"
   ),
@@ -178,28 +178,28 @@ const resume_school = [
 
 const resume_other = [
   new resumeElement(
-    "Englisch Sprachkenntnisse: Verhandlungssicher",
-    "English - Fluent"
+    "English - Fluent",
+    "Englisch Sprachkenntnisse: Verhandlungssicher"
   ),
   new resumeElement(
-    "Zertifikat: The Complete JavaScript Course 2022: From Zero to Expert (Udemy, 09/2022)",
-    "Certificate: The Complete JavaScript Course 2022: From Zero to Expert (Udemy, 09/2022)"
+    "Certificate: The Complete JavaScript Course 2022: From Zero to Expert (Udemy, 09/2022)",
+    "Zertifikat: The Complete JavaScript Course 2022: From Zero to Expert (Udemy, 09/2022)"
   ),
   new resumeElement(
-    "Zertifikat: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)",
-    "Certificate: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)"
+    "Certificate: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)",
+    "Zertifikat: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)"
   ),
   new resumeElement(
-    "Zertifikat: Responsive Web Design (freeCodeCamp, 12/2021)",
-    "Certificate: Responsive Web Design (freeCodeCamp, 12/2021)"
+    "Certificate: Responsive Web Design (freeCodeCamp, 12/2021)",
+    "Zertifikat: Responsive Web Design (freeCodeCamp, 12/2021)"
   ),
   new resumeElement(
-    "Zertifikat: 1-Bit Godot Course by Heartbeast (08/2021)",
-    "Certificate: 1-Bit Godot Course by Heartbeast (08/2021)"
+    "Certificate: 1-Bit Godot Course by Heartbeast (08/2021)",
+    "Zertifikat: 1-Bit Godot Course by Heartbeast (08/2021)"
   ),
   new resumeElement(
-    "Zertifikat: ITIL Foundation Certificate in IT Service Management (09/2012)",
-    "Certificate: ITIL Foundation Certificate in IT Service Management (09/2012)"
+    "Certificate: ITIL Foundation Certificate in IT Service Management (09/2012)",
+    "Zertifikat: ITIL Foundation Certificate in IT Service Management (09/2012)"
   ),
 ];
 
@@ -270,7 +270,11 @@ function _resume_values(values) {
 
 function _resume_other(el) {
   let newLi = document.createElement("li");
-  newLi.innerHTML = `<p>${el.valueDE}</p>`;
+  if (language == "de") {
+    newLi.innerHTML = `<p>${el.valueDE}</p>`;
+  } else {
+    newLi.innerHTML = `<p>${el.valueEN}</p>`;
+  }
   return newLi;
 }
 

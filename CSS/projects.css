@@ -1,15 +1,16 @@
 /* ================================================ article */
-#games article {
-  margin-top: 5rem;
+#games article,
+#webpages article {
+  margin-top: 2rem;
 }
 
 /* ================================================ links */
-.game__links {
+.project__links {
   display: flex;
   justify-content: space-around;
 }
 
-.game__link {
+.project__link {
   display: block;
   margin: 1rem;
   margin-left: 0;
@@ -18,11 +19,11 @@
   transition: all 0.4s ease-in-out;
 }
 
-.game__link::before {
+.project__link::before {
   content: ">> ";
 }
 
-.game__link:hover {
+.project__link:hover {
   color: var(--color_accent);
 }
 

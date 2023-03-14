@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./CSS/landing.css" />
     <link rel="stylesheet" href="./CSS/about.css" />
     <link rel="stylesheet" href="./CSS/resume.css" />
-    <link rel="stylesheet" href="./CSS/games.css" />
+    <link rel="stylesheet" href="./CSS/projects.css" />
     <link rel="stylesheet" href="./CSS/footer.css" />
     <link
       rel="stylesheet"
@@ -47,6 +47,7 @@
       <ul class="nav_links">
         <li><a href="#about" class="navButton">About Me</a></li>
         <li><a href="#resume" class="navButton">Curriculum Vitae</a></li>
+        <li><a href="#webpages" class="navButton">Web Projects</a></li>
         <li><a href="#games" class="navButton">Game Projects</a></li>
       </ul>
     </nav>
@@ -57,6 +58,8 @@
         <h1>Sieghard</h1>
         <h3>I build games and things for the web</h3>
       </section>
+
+      <!-- =========================================== About -->
 
       <section id="about">
         <h2>About Me</h2>
@@ -80,6 +83,7 @@
         </ul>
       </section>
 
+      <!-- =========================================== Resume -->
       <section id="resume">
         <div class="resume__header">
           <h2 class="resume__header__title">Curriculum Vitae</h2>
@@ -104,6 +108,67 @@
         </div>
       </section>
 
+      <!-- =========================================== Webpages -->
+      <section id="webpages">
+        <h2>Web Projects</h2>
+        <p>
+          Further down you find the webproject I have desinged and build. I
+          abstained from including tutorial projects and opted to only list the
+          webpage I build 100% myself and for a real client.
+        </p>
+        <p>>> I use VS Code to programme my web projects.</p>
+        <article>
+          <h3>Eintracht Halfing</h3>
+          <p>
+            Eintracht Halfing is a shooting association in the municipal of
+            Halfing. I designed new webpage for them and filled it with content
+            from their old page. The chairmembers like the result and
+            commissioned me to change their webpage to my design.
+          </p>
+          <div class="project__links">
+            <a
+              class="project__link"
+              href="https://paraldos.github.io/EintrachtHalfing/"
+              >Webpage</a
+            >
+            <a
+              class="project__link"
+              href="https://github.com/Paraldos/EintrachtHalfing"
+              >Code</a
+            >
+          </div>
+          <div>
+            <!-- SliderJS -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./pictures/EintrachtHalfing1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/EintrachtHalfing2.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./pictures/EintrachtHalfing3.png" alt="" />
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="scrollbarDisabledClass"></div>
+            </div>
+            <!-- SliderJS -->
+          </div>
+        </article>
+      </section>
+
+      <!-- =========================================== Games -->
       <section id="games">
         <h2>Game Projects</h2>
         <p>
@@ -116,7 +181,7 @@
           art) as tools.
         </p>
 
-        <!-- =========================================== colony Defender 2-->
+        <!-- ================= colony Defender 2-->
         <article>
           <h3>Colony Defender 2</h3>
           <div class="game__description">
@@ -133,14 +198,14 @@
               a file structure, building reusable templates and so on is in many
               ways just as important building the game itself.
             </p>
-            <div class="game__links">
+            <div class="project__links">
               <a
-                class="game__link"
+                class="project__link"
                 href="https://lil-cthulhu.itch.io/colony-defender-2"
                 >Play</a
               >
               <a
-                class="game__link"
+                class="project__link"
                 href="https://github.com/Paraldos/ColonyDefender2"
                 >Code</a
               >
@@ -183,7 +248,7 @@
           </div>
         </article>
 
-        <!-- =========================================== slider puzzle-->
+        <!-- ================= slider puzzle-->
         <article>
           <h3>Slider Puzzle</h3>
           <div class="game__description">
@@ -197,14 +262,14 @@
               Slider Puzzle can be played on Itch.io and is currently pending
               its clearance for the Google Playstore.
             </p>
-            <div class="game__links">
+            <div class="project__links">
               <a
-                class="game__link"
+                class="project__link"
                 href="https://lil-cthulhu.itch.io/slider-puzzle"
                 >Play</a
               >
               <a
-                class="game__link"
+                class="project__link"
                 href="https://github.com/Paraldos/SliderPuzzle"
                 >Code</a
               >
@@ -247,7 +312,7 @@
           </div>
         </article>
 
-        <!-- =========================================== happy blocks-->
+        <!-- ================= happy blocks-->
         <article>
           <h3>Happy Blocks</h3>
           <div class="game__description">
@@ -261,14 +326,14 @@
               smartphones and with touch controls in mind. It also was the first
               game I published on an official platform – the Google Playstore.
             </p>
-            <div class="game__links">
+            <div class="project__links">
               <a
-                class="game__link"
+                class="project__link"
                 href="https://lil-cthulhu.itch.io/happy-blocks"
                 >Play</a
               >
               <a
-                class="game__link"
+                class="project__link"
                 href="https://play.google.com/store/apps/details?id=org.Happyblocks"
                 >Google Play</a
               >
@@ -311,7 +376,7 @@
           </div>
         </article>
 
-        <!-- =========================================== colony defender-->
+        <!-- ================= colony defender-->
         <article>
           <h3>Colony Defender</h3>
           <div class="game__description">
@@ -327,14 +392,14 @@
               research programming questions and overcome problems by
               disassembling them into smaller, more manageable steps.
             </p>
-            <div class="game__links">
+            <div class="project__links">
               <a
-                class="game__link"
+                class="project__link"
                 href="https://lil-cthulhu.itch.io/colony-defender"
                 >Play</a
               >
               <a
-                class="game__link"
+                class="project__link"
                 href="https://github.com/Paraldos/ColonyDefender"
                 >Code</a
               >

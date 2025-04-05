@@ -1,0 +1,11 @@
+.resume__photo {
+  padding-top: 2rem;
+  max-width: 40%;
+  max-height: 40%;
+  margin: auto;
+
+  @media (max-width: 850px) {
+    max-width: 80%;
+    max-height: 80%;
+  }
+}

@@ -1,0 +1,13 @@
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.5rem;
+}

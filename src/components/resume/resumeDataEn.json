@@ -1,0 +1,101 @@
+{
+  "work": [
+    {
+      "date": "since 04/2023",
+      "title": "Junior Developer, TechDivision GmbH Kolbermoor, Germany",
+      "descriptions": [
+        "CMS Web Development with NEOS CMS and AEM (Adobe Experience Manager)",
+        "Bugfixing, Maintenance and Development of existing projects",
+        "Frontend Development with HTML, CSS, JavaScript"
+      ]
+    },
+    {
+      "date": "11/2017 to 03/2023",
+      "title": "IT Project Manager, Administrative District Office Rosenheim, Germany",
+      "descriptions": [
+        "Tech management for 23 district schools (Special Schools, Middle Schools, High Schools, Vocational Schools, Vocational High Schools, and Business Schools – about 1,800 teachers and 18,000 students)",
+        "Supervision of IT Service Contractors, Media Tech Specialists and Electricians",
+        "Budgeting, accounting, and general administration for IT requirements",
+        "Planning, evaluation and supervision for local, national, and EU competitive tendering procedures (e.g., Data Privacy Audits, Centralized Printer Management, Subsidy Program: 'Teacher devices', Subsidy Program: 'Digital Classroom')"
+      ]
+    },
+    {
+      "date": "07/2017 to 10/2017",
+      "title": "Interim Employment Society, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim, Germany",
+      "descriptions": []
+    },
+    {
+      "date": "04/2015 to 06/2017",
+      "title": "IT Support Engineer, Kathrein-Werke KG, Rosenheim, Germany",
+      "descriptions": [
+        "1st and 2nd level support (about 1,800 employees / Windows environment)",
+        "National and international tech support",
+        "VPN (Virtual Private Network) user support (home office and field workers)",
+        "Active Directory user administration",
+        "Maintenance of network infrastructure (e.g., configuration of access points and switches)"
+      ]
+    },
+    {
+      "date": "01/2012 to 03/2015",
+      "title": "IT Support Engineer, D-Ploy GmbH, Deployment Site: Hexal AG, Holzkirchen, Germany",
+      "descriptions": [
+        "1st and 2nd level support (about 2,800 employees / Windows environment)",
+        "Deputy team manager 2nd level"
+      ]
+    },
+    {
+      "date": "11/2011 to 12/2011",
+      "title": "Junior IT Engineer, Computacenter GmbH, Deployment Site: Munich Re AG, Munich, Germany",
+      "descriptions": [
+        "1st and 2nd level support (about 2,000 employees / Windows environment)"
+      ]
+    },
+    {
+      "date": "12/2008 to 04/2009",
+      "title": "Insurance Salesman, Allianz AG, Rosenheim, Germany",
+      "descriptions": []
+    },
+    {
+      "date": "05/2007 to 07/2007",
+      "title": "Registry Auxiliary Activity, Tax Department, Municipal Administration Inzell, Germany",
+      "descriptions": []
+    },
+    {
+      "date": "02/2006 to 01/2007",
+      "title": "Storeman, Dr. Johannes Heidenhain GmbH, Traunreut, Germany",
+      "descriptions": []
+    }
+  ],
+  "training": [
+    {
+      "date": "09/2009 to 07/2011",
+      "title": "IT Specialist for System Integration, bfz gGmbH, Rosenheim, Germany",
+      "descriptions": []
+    },
+    {
+      "date": "08/2003 to 01/2006",
+      "title": "Management Assistant in Wholesale and Foreign Trade, Alois Höflschweiger Landmaschinentechnik, Siegsdorf, Germany",
+      "descriptions": []
+    }
+  ],
+  "school": [
+    {
+      "date": "09/2007 to 08/2008",
+      "title": "Berufliche Oberschule (BOS) (Vocational High School), Traunstein, Germany",
+      "descriptions": []
+    },
+    {
+      "date": "09/2000 to 07/2003",
+      "title": "Mittlere Reife (Secondary School Certificate / comparable to British GCSE), Private School of Economics Dr. Kalscheuer, Traunstein, Germany",
+      "descriptions": []
+    }
+  ],
+  "other": [
+    "Fluent in German (native) and English",
+    "Certificate: PHP: The Ultimate Complete Course for Web Development with PHP (Udemy, 04/2023)",
+    "Certificate: The Complete JavaScript Course 2022: From Zero to Expert (Udemy, 09/2022)",
+    "Certificate: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)",
+    "Certificate: Responsive Web Design (freeCodeCamp, 12/2021)",
+    "Certificate: 1-Bit Godot Course by Heartbeast (08/2021)"
+  ]
+}

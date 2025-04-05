@@ -1,0 +1,13 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.language__en .resume__de {
+  display: none;
+}
+
+.language__de .resume__en {
+  display: none;
+}

@@ -1,0 +1,25 @@
+.resume__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.resume__list-item {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+
+.resume__item-date {
+  margin: 0;
+}
+
+.resume__item-description {
+  position: relative;
+  margin-left: 25px;
+}
+
+.resume__item-description::before {
+  content: "•";
+  position: absolute;
+  left: -25px;
+}

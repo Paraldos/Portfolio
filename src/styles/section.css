@@ -1,0 +1,17 @@
+section {
+  min-height: 100vh;
+  padding-top: calc(var(--nav_height_big) + 1rem);
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: 850px) {
+    padding: 1rem;
+    padding-top: calc(var(--nav_height_small) + 1rem);
+  }
+}
+
+section p {
+  margin: 0.5rem 0;
+}

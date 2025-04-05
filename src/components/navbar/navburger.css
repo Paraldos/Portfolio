@@ -34,6 +34,21 @@
   }
 }
 
+.nav-active .navbar__burger {
+  div:nth-child(1) {
+    transform: rotate(-45deg);
+  }
+
+  div:nth-child(2) {
+    transform: scaleX(0);
+    background: transparent;
+  }
+
+  div:nth-child(3) {
+    transform: rotate(45deg);
+  }
+}
+
 .navbar__burger:hover {
   --burger-color: var(--color_accent);
 }

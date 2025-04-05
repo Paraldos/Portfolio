@@ -6,8 +6,8 @@ import Navlinks from "./Navlinks";
 
 function Navbar() {
   const toggleNav = () => {
-    const navlinks = document.querySelector(".navbar__links");
-    navlinks.classList.toggle("active");
+    const navlinks = document.querySelector("body");
+    navlinks.classList.toggle("nav-active");
   };
 
   return (

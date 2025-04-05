@@ -4,7 +4,6 @@ footer {
   display: flex;
   align-items: flex-end;
   z-index: 10;
-
   transition: bottom 0.4s ease-in-out;
 }
 
@@ -46,7 +45,7 @@ footer svg {
     bottom: -100vh;
   }
 
-  footer.active {
+  .nav-active footer {
     bottom: -0;
   }
 }

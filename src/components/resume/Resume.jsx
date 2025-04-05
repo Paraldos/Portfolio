@@ -1,4 +1,5 @@
 import "./resume.css";
+import "./resumePhoto.css";
 import resumeDataEn from "./resumeDataEn.json";
 import resumeDataDe from "./resumeDataDe.json";
 import ResumeHeader from "./ResumeHeader";
@@ -14,7 +15,7 @@ function Resume() {
   };
 
   return (
-    <section id="resume" className="language__en">
+    <section id="resume" className="resume language__en">
       <ResumeHeader changeLanguage={changeLanguage} />
       <img className="resume__photo" src="src/assets/images/Foto.png" alt="" />
       <div className="resume__work">

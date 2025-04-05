@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--color_text);
+  text-decoration: none;
+  list-style: none;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+}

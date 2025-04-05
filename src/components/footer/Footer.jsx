@@ -2,8 +2,8 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <footer class="footer">
-      <ul class="footer__links">
+    <footer className="footer">
+      <ul className="footer__links">
         <li>
           <a href="https://github.com/Paraldos">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -34,7 +34,7 @@ function Footer() {
             </svg>
           </a>
         </li>
-        <li class="footer__bottom-line"></li>
+        <li className="footer__bottom-line"></li>
       </ul>
     </footer>
   );

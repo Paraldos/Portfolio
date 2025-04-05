@@ -1,0 +1,35 @@
+.resume__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume__language-btn {
+  width: 50px;
+  aspect-ratio: 1;
+
+  border: none;
+  border-radius: 50%;
+
+  background: var(--color_text);
+  font-weight: bolder;
+
+  transition: all 0.1s ease-in-out;
+
+  span {
+    color: var(--color_bacbkground_dark);
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+.resume__language-btn:hover {
+  cursor: pointer;
+  background: var(--color_accent);
+  transform: scale(1.2);
+  border-radius: 35%;
+  border-color: var(--color_text);
+  color: var(--color_text);
+
+  span {
+    color: var(--color_text);
+  }
+}

@@ -7,9 +7,9 @@ function Navlink({ toggleNav }) {
   ];
 
   return (
-    <ul class="navbar__links">
+    <ul className="navbar__links">
       {links.map((link) => (
-        <li class="navbar__link" onClick={toggleNav} key={link.name}>
+        <li className="navbar__link" onClick={toggleNav} key={link.name}>
           <a href={link.url}>{link.name}</a>
         </li>
       ))}

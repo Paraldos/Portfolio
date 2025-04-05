@@ -1,0 +1,102 @@
+{
+  "work": [
+    {
+      "date": "seit 04/2023",
+      "title": "Junior Developer, TechDivision GmbH, Kolbermoor",
+      "descriptions": [
+        "Webentwicklung mit NEOS CMS und AEM (Adobe Experience Manager)",
+        "Fehlerbehebung, Wartung und Weiterentwicklung bestehender Projekte",
+        "Frontend-Entwicklung mit HTML, CSS, JavaScript"
+      ]
+    },
+    {
+      "date": "11/2017 bis 03/2023",
+      "title": "IT-Projektmanager, Landratsamt Rosenheim",
+      "descriptions": [
+        "Technische Betreuung von 23 Landkreisschulen (Förderzentren, Realschulen, Gymnasien, Berufsschulen, Berufliche Oberschulen und Wirtschaftsschulen / ca. 1.800 Lehrkräfte und 18.000 Schüler)",
+        "Koordination von IT-Dienstleistern, Medientechnikern und Elektrikern",
+        "Haushaltsplanung, Rechnungsprüfung und allgemeine Verwaltung von IT-Anforderungen",
+        "Planung, Auswertung und Umsetzung von lokalen, nationalen und EU-weiten Ausschreibungen (z.B. Datenschutzaudits, zentrale Druckerverwaltung, Förderprogramme 'Lehrerdienstgeräte', 'Digitales Klassenzimmer')"
+      ]
+    },
+    {
+      "date": "07/2017 bis 10/2017",
+      "title": "Transfergesellschaft, PTG Projekt und Transfergesellschaft gGmbH, Rosenheim",
+      "descriptions": []
+    },
+    {
+      "date": "04/2015 bis 06/2017",
+      "title": "Support-Techniker, Kathrein-Werke KG, Rosenheim",
+      "descriptions": [
+        "1st und 2nd Level Support (ca. 1.800 Mitarbeitende / Windows-Umfeld)",
+        "Nationaler und internationaler Telefonsupport",
+        "Vorqualifizierung und Dispatching von Tickets im hauseigenen Ticketsystem",
+        "VPN-Support für Homeoffice- und Außendienst-Mitarbeitende",
+        "Benutzerverwaltung über Active Directory",
+        "Pflege der Netzwerkinfrastruktur (z. B. Konfiguration von Access Points und Cisco Switches)"
+      ]
+    },
+    {
+      "date": "01/2012 bis 03/2015",
+      "title": "Service-Techniker, D-Ploy GmbH, Einsatzort: Hexal AG, Holzkirchen",
+      "descriptions": [
+        "1st und 2nd Level Support (ca. 2.800 Mitarbeitende / Windows-Umfeld)",
+        "Stellvertretender Teamleiter im Second-Level-Support"
+      ]
+    },
+    {
+      "date": "11/2011 bis 12/2011",
+      "title": "Junior-Techniker, Computacenter GmbH, Einsatzort: Munich Re AG, München",
+      "descriptions": [
+        "1st Level Support (ca. 2.000 Mitarbeitende / Windows-Umfeld)"
+      ]
+    },
+    {
+      "date": "12/2008 bis 04/2009",
+      "title": "Versicherungskaufmann, Allianz AG, Rosenheim",
+      "descriptions": []
+    },
+    {
+      "date": "05/2007 bis 07/2007",
+      "title": "Hilfstätigkeit in der Registratur, Steuerstelle Gemeinde Inzell",
+      "descriptions": []
+    },
+    {
+      "date": "02/2006 bis 01/2007",
+      "title": "Lagerist, Dr. Johannes Heidenhain GmbH, Traunreut",
+      "descriptions": []
+    }
+  ],
+  "training": [
+    {
+      "date": "09/2009 bis 07/2011",
+      "title": "Fachinformatiker für Systemintegration, bfz gGmbH, Rosenheim",
+      "descriptions": []
+    },
+    {
+      "date": "08/2003 bis 01/2006",
+      "title": "Kaufmann im Groß- und Außenhandel, Alois Höflschweiger Landmaschinentechnik, Siegsdorf",
+      "descriptions": []
+    }
+  ],
+  "school": [
+    {
+      "date": "09/2007 bis 08/2008",
+      "title": "Berufliche Oberschule (BOS), Traunstein",
+      "descriptions": []
+    },
+    {
+      "date": "09/2000 bis 07/2003",
+      "title": "Mittlere Reife, Private Wirtschaftsschule Dr. Kalscheuer, Traunstein",
+      "descriptions": []
+    }
+  ],
+  "other": [
+    "Sprachkenntnisse: Deutsch (Muttersprache), Englisch (verhandlungssicher)",
+    "Zertifikat: The Complete JavaScript Course 2022: From Zero to Expert (Udemy, 09/2022)",
+    "Zertifikat: JavaScript Algorithms and Data Structures (freeCodeCamp, 08/2022)",
+    "Zertifikat: Responsive Web Design (freeCodeCamp, 12/2021)",
+    "Zertifikat: 1-Bit Godot Course by Heartbeast (08/2021)",
+    "Zertifikat: ITIL Foundation Certificate in IT Service Management (09/2012)"
+  ]
+}

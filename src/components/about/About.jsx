@@ -12,7 +12,7 @@ function About() {
         new project I start.
       </p>
       <p>Here are a few of the technologies I'm familiar with:</p>
-      <ul class="about__list">
+      <ul className="about__list">
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
@@ -24,7 +24,7 @@ function About() {
         <li>AEM (Adobe)</li>
         <li>NEOS CMS</li>
       </ul>
-      <ul class="about__list">
+      <ul className="about__list">
         <li>Godot</li>
         <li>GDScript</li>
         <li>Unreal Engine</li>

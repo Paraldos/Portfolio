@@ -14,3 +14,13 @@
   font-family: "Kanit", sans-serif;
   font-size: 20px;
 }
+
+body {
+  height: 100%;
+  background-color: var(--color_bacbkground_light);
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}

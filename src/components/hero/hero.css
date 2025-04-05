@@ -1,0 +1,25 @@
+#hero p {
+  margin: 0;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+#hero h3 {
+  text-align: end;
+}
+
+@media (max-width: 850px) {
+  #hero p {
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-size: 3rem;
+  }
+
+  #hero h3 {
+    text-align: center;
+  }
+}

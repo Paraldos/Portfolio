@@ -1,6 +1,6 @@
 import "./navbar.css";
 import "./navlinks.css";
-import Logo from "../logo/Logo";
+import Logo from "./Logo";
 import Navburger from "./Navburger";
 import Navlinks from "./Navlinks";
 
@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Logo />
+      <Logo toggleNav={toggleNav} />
       <Navburger toggleNav={toggleNav} />
       <Navlinks toggleNav={toggleNav} />
     </nav>

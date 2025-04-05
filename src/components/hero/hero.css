@@ -1,7 +1,7 @@
 #hero {
   text-align: center;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 850px) {
     p {
       padding-right: 50%;
       margin: 0;

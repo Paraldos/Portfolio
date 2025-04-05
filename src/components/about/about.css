@@ -16,7 +16,7 @@
   vertical-align: middle;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .about__list {
     grid-template-columns: repeat(2, 1fr);
   }

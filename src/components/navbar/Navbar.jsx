@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Logo toggleNav={toggleNav} />
+      <Logo />
       <Navburger toggleNav={toggleNav} />
       <Navlinks toggleNav={toggleNav} />
     </nav>

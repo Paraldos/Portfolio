@@ -6,7 +6,7 @@
   justify-content: center;
   gap: 30px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     position: absolute;
     top: -100vh;
     left: 0;
@@ -23,7 +23,7 @@
 }
 
 .nav-active .navbar__links {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     top: 0;
   }
 }
@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     text-transform: uppercase;
     height: fit-content;
   }

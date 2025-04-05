@@ -1,8 +1,13 @@
 import "./logo.css";
 
-function Logo({ toggleNav }) {
+function Logo() {
+  const disableNav = () => {
+    const navlinks = document.querySelector("body");
+    navlinks.classList.remove("nav-active");
+  };
+
   return (
-    <a className="logo" href="#" onClick={toggleNav}>
+    <a className="logo" href="#" onClick={disableNav}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
         !Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
         License - https://fontawesome.com/license/free Copyright 2025 Fonticons,

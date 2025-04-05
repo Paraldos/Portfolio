@@ -15,7 +15,7 @@
   transform-style: preserve-3d;
   z-index: 5;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     height: var(--nav_height_small);
   }
 }

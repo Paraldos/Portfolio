@@ -1,0 +1,23 @@
+.about__list {
+  padding-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 15px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.about__list li::before {
+  content: "</>";
+  font-family: sans-serif;
+  padding-bottom: 3px;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .about__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

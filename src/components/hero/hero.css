@@ -1,25 +1,14 @@
-#hero p {
-  margin: 0;
-}
-
-#hero h1 {
+#hero {
   text-align: center;
-}
 
-#hero h3 {
-  text-align: end;
-}
+  @media screen and (min-width: 768px) {
+    p {
+      padding-right: 50%;
+      margin: 0;
+    }
 
-@media (max-width: 850px) {
-  #hero p {
-    text-align: center;
-  }
-
-  #hero h1 {
-    font-size: 3rem;
-  }
-
-  #hero h3 {
-    text-align: center;
+    h3 {
+      text-align: end;
+    }
   }
 }

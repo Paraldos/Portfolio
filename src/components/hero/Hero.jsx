@@ -4,9 +4,9 @@ function Hero() {
   return (
     <section id="hero">
       <p>Hello Friend, my name is</p>
-      <h1>Sieghard</h1>
-      <h3>I turn ideas into digital experiences</h3>
-      <h3>games, websites, and web apps</h3>
+      <p>Sieghard</p>
+      <p>I turn ideas into digital experiences</p>
+      <p>games, websites, and web apps</p>
     </section>
   );
 }

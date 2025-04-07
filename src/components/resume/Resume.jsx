@@ -8,8 +8,8 @@ import ResumeHeadline from "./ResumeHeadline";
 import ResumeOther from "./ResumeOther";
 
 function Resume() {
-  const resume = document.querySelector("#resume");
   const changeLanguage = () => {
+    const resume = document.querySelector("#resume");
     resume.classList.toggle("language__de");
     resume.classList.toggle("language__en");
   };

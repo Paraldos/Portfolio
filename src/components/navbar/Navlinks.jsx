@@ -2,8 +2,7 @@ function Navlink({ toggleNav }) {
   var links = [
     { name: "About Me", url: "#about" },
     { name: "Curriculum Vitae", url: "#resume" },
-    { name: "Web Projects", url: "#webpages" },
-    { name: "Game Projects", url: "#games" },
+    { name: "Projects", url: "#projects" },
   ];
 
   return (

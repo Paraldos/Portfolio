@@ -1,26 +1,21 @@
 <script setup lang="ts">
-import { ref } from "vue";
-const menuOpen = ref(false);
+import Burger from "./Burger.vue";
 </script>
 
 <style scoped>
 @import "./Header.css";
-@import "./Burger.css";
 </style>
 
 <template>
-  <header>
-    <button
-      class="burger"
-      :class="{ active: menuOpen }"
-      :aria-expanded="menuOpen"
-      aria-label="Toggle menu"
-      @click="menuOpen = !menuOpen"
-    >
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <h1>Hello World</h1>
+  <header class="header">
+    <Burger></Burger>
+    <nav class="header-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 </template>

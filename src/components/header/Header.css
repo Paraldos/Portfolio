@@ -17,13 +17,16 @@ nav {
 
   transform: translateX(100%);
   visibility: hidden;
+  opacity: 0;
 
   transition:
     transform 400ms ease-in-out,
-    visibility 400ms;
+    visibility 400ms,
+    opacity 400ms;
 }
 
 nav.active {
+  opacity: 1;
   transform: translateX(0);
   visibility: visible;
 }

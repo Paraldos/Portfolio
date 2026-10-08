@@ -1,0 +1,86 @@
+#vitae {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 25px;
+}
+
+#vitae h1 {
+  margin-bottom: 30px;
+}
+
+#vitae table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#vitae td {
+  padding: 25px 15px;
+  border-bottom: 1px solid var(--color-primary);
+  vertical-align: top;
+}
+
+#vitae .date {
+  width: 30%;
+  white-space: nowrap;
+  font-weight: 300;
+  color: var(--color-primary);
+}
+
+#vitae .details h2 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+#vitae .details h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#vitae .details p {
+  line-height: 1.6;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  #vitae td {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+  }
+
+  #vitae tr {
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color-primary);
+  }
+}
+
+.details h2 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.details h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 15px;
+}
+
+.details ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.details li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.details li::marker {
+  color: var(--color-primary);
+}

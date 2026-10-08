@@ -76,3 +76,12 @@
   width: 100%;
   transform: translateY(-10.5px) rotate(-45deg);
 }
+
+@media (max-width: 768px) {
+  .burger {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    z-index: 101;
+  }
+}

@@ -6,7 +6,7 @@
   --color-primary: #f6cd26;
   --color-secondary: #ac6b26;
   --color-light-background: #393939;
-  --color-dark-background: #202020;
+  --color-dark-background: rgba(20, 20, 20, 0.65);
 
   --scroll_width: 20px;
   --nav_height_big: 4rem;

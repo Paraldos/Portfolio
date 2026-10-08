@@ -87,3 +87,61 @@ nav a:focus-visible::after {
     transition: none;
   }
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  header {
+    height: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    overflow: visible;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    right: auto;
+    left: 0;
+    z-index: 100;
+
+    width: fit-content;
+    height: 100dvh;
+    padding: 80px 30px 100px;
+    box-sizing: border-box;
+
+    background-color: var(--color-dark-background);
+    border-right: 5px solid var(--color-primary);
+
+    transform: translateX(-100%);
+    opacity: 1;
+    visibility: hidden;
+
+    transition:
+      transform 400ms ease-in-out,
+      visibility 400ms;
+  }
+
+  nav.active {
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  nav ul {
+    height: 100%;
+    width: fit-content;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+  }
+  nav li {
+    width: 100%;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-right: 50px;
+  }
+}

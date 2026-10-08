@@ -1,22 +1,27 @@
 <script setup lang="ts">
-import { ref } from "vue";
-const menuOpen = ref(false);
-</script>
+defineProps<{
+  active: boolean;
+}>();
 
-<style scoped>
-@import "./Burger.css";
-</style>
+const emit = defineEmits<{
+  click: [];
+}>();
+</script>
 
 <template>
   <button
     class="burger"
-    :class="{ active: menuOpen }"
-    :aria-expanded="menuOpen"
+    :class="{ active }"
+    :aria-expanded="active"
     aria-label="Toggle menu"
-    @click="menuOpen = !menuOpen"
+    @click="emit('click')"
   >
     <span></span>
     <span></span>
     <span></span>
   </button>
 </template>
+
+<style scoped>
+@import "./Burger.css";
+</style>

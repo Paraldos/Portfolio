@@ -1,0 +1,9 @@
+:root {
+  --font-family: "Kanit", sans-serif;
+  --font-size-base: 1rem;
+  --line-height: 1.5;
+
+  --color-background: #ffffff;
+  --color-text: #1a1a1a;
+  --color-primary: #2563eb;
+}

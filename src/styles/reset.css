@@ -17,10 +17,10 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-base);
   line-height: var(--line-height);
-  color: var(--color-text);
+  color: var(--color-primary);
 
   min-height: 100vh;
-  background-color: var(--color-background);
+  background-color: var(--color-light-background);
 
   -webkit-font-smoothing: antialiased;
 }

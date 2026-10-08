@@ -3,7 +3,15 @@
   --font-size-base: 1rem;
   --line-height: 1.5;
 
-  --color-background: #ffffff;
-  --color-text: #1a1a1a;
-  --color-primary: #2563eb;
+  --color-primary: #f6cd26;
+  --color-secondary: #ac6b26;
+  --color-light-background: #393939;
+  --color-dark-background: #202020;
+
+  --scroll_width: 20px;
+  --nav_height_big: 4rem;
+  --nav_height_small: 3rem;
+  --nav_border: 0.2rem;
+
+  --header-height: 80px;
 }
